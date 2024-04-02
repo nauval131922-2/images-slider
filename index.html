@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Anugerah Print.com - Digital Printing Jakarta</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/slick.min.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="css/slick-theme.min.css" type="text/css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://www.anugerahprint.com/liteprint/assets/plugins/slick/slick-theme.min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/az_theme.css" type="text/css" />
+    <link rel="stylesheet" href="css/az_theme_max.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/az_theme_custom.css" type="text/css" />
+  </head>
+
+  <style>
+    /* jika dalam lebar layar laptop */
+    @media (min-width: 1086px) {
+      .content {
+        margin-top: 30px;
+      }
+    }
+
+    /* jika dalam lebar layar tablet */
+    @media (max-width: 1085px) {
+      .content {
+        margin-top: -55px;
+      }
+    }
+
+    /* ubah cursor saat hover gambar di slideshow */
+    .slideshow-list .sideshow-list img {
+      cursor: grab;
+    }
+  </style>
+
+  <body>
+    <div class="content">
+      <div class="container-slideshow">
+        <div class="col-slideshow">
+          <div class="slideshow">
+            <div class="slideshow-list">
+              <div class="sideshow-list">
+                <a href="javascript:void(0)"
+                  ><img
+                    alt="cetak stiker murah"
+                    src="images/slider-1.webp"
+                    class="img-slideshow"
+                /></a>
+              </div>
+            </div>
+            <div class="slideshow-list">
+              <div class="sideshow-list">
+                <a href="javascript:void(0)"
+                  ><img
+                    alt="Merchandise &amp; Stationery"
+                    src="images/slider-2.webp"
+                    class="img-slideshow"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slideshow-m">
+        <div class="slideshow-list">
+          <div class="box-slide">
+            <a href="javascript:void(0)"
+              ><img alt="cetak stiker murah" src="images/slider-1.webp"
+            /></a>
+          </div>
+        </div>
+        <div class="slideshow-list">
+          <div class="box-slide">
+            <a href="javascript:void(0)"
+              ><img
+                alt="Merchandise &amp; Stationery"
+                src="images/slider-2.webp"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+
+<script type="text/javascript">
+  jQuery(".slideshow").slick({
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
+  });
+
+  jQuery(".slideshow-m").slick({
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+  });
+</script>
